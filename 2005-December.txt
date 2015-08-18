@@ -1,0 +1,71 @@
+From d.posch at inode.at  Thu Dec  1 18:33:41 2005
+From: d.posch at inode.at (Daniel Posch)
+Date: Thu, 01 Dec 2005 18:33:41 +0100
+Subject: [Bf-dev-user] Sinn der Mailinglists (was: test)
+In-Reply-To: <438DCE55.4060003@gmx.at>
+References: <438DCE55.4060003@gmx.at>
+Message-ID: <438F33F5.7040605@inode.at>
+
+Wolfgang Moser wrote:
+> TEST!
+> 
+> @Popsch: Erkl?r bitte wof?r genau jeweils die drei Mailinglisten sind.
+> _______________________________________________
+> Bf-dev-user mailing list
+> Bf-dev-user at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/bf-dev-user
+> 
+
+Steht doch eh eine wundersch?ne Beschreibung dabei. ;-)
+
+Naja, nochmal auf deutsch:
+
+- bf-dev-announce
+	Neuigkeiten und Ank?ndigen.
+- bf-dev-user
+	Support-Liste f?r User.
+- bf-dev-devel
+	Themen rund um die Entwicklung.
+
+Wichtig f?r uns ist jetzt erstmal die *devel-Liste, *announce kann 
+eigentlich auch schon verwendet werden (oder haltet ihr eine 
+*devel-announce Liste f?r sinnvoll, wie sie es etwa bei Debian gibt). 
+Die *user-Liste soll dann sp?ter f?r den Support verwendet werden, ist 
+also im Moment v?llig irrelevant.
+
+-- 
+Daniel Posch
+Brainfuck Studio Project Leader
+danpo at users.berlios.de
+
+
+From fuzn at gmx.at  Fri Dec  9 13:49:54 2005
+From: fuzn at gmx.at (Wolfgang Moser)
+Date: Fri, 09 Dec 2005 13:49:54 +0100
+Subject: [Bf-dev-user] Windows-Programm =?ISO-8859-15?Q?f=FCr_SVN?=
+Message-ID: <43997D72.4090603@gmx.at>
+
+F?r alle Windows-User unter uns:
+
+Hab ein Programm gefunden, mit dem man das SVN-Repository wundersch?n 
+nutzen und verwalten kann.
+Zu finden gibts das Tool unter http://tortoisesvn.tigris.org/ .
+
+TortoiseSVN bindet sich in den Windows-Explorer ein und kann sofort 
+verwendet werden.
+Einfach einen neuen Ordner erstellen. Rechtsklick darauf und "SVN 
+Checkout..." w?hlen. Als URL gebt ihr 
+"https://user at svn.berlios.de/svnroot/repos/bf-dev/trunk" an, wobei 
+"user" mit eurem Berlios-Usernamen ersetzt werden muss. Also bei mir w?r 
+das dann "https://wolmo at svn.berlios.de/svnroot/repos/bf-dev/trunk".
+Ab sofort k?nnt ihr spielend leicht das Repository auf neuestem Stand 
+halten und auch selber auf neuen Stand bringen. Es k?nnen auch Patches 
+erstellt werden, um die anderen wissen lassen zu k?nnen, was ihr gemacht 
+habt.
+
+Ich hoffe, dass euch das ein wenig weiterhelfen konnte.
+
+LG,
+Mosa
+
+

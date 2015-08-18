@@ -1,0 +1,47 @@
+From manfred.linzner at gmail.com  Thu Jun  8 20:08:15 2006
+From: manfred.linzner at gmail.com (Manfred Linzner)
+Date: Thu, 8 Jun 2006 20:08:15 +0200
+Subject: [Bf-dev-user] Installationsproblem [Debian 3.1 unstable; Qt 4.1.3]
+Message-ID: <4064917a0606081108i7d32a00ah96bd5fc1ad1d9cab@mail.gmail.com>
+
+Hi!
+
+Grunds?tzlich tolles Projekt doch leider habe ich ein Problem beim
+"installieren".
+
+Mein System:
+Debian 3.1 unstable
+Qt 4.1.3 ist installiert
+
+Im Verzeichnis mit den Sourcen f?hre ich folgendes aus:
+
+"qmake -project"
+"qmake"
+
+beide funktionieren.
+
+Dann kommt der Befehl "make" mit folgendem Fehler:
+
+---------------------------
+mainwindow.o: In function `MainWindow::showSettings()':
+/home/manfred/download/brainfuck/mainwindow.cpp:254: undefined reference to
+`Highlighter::Highlighter(QTextDocument*)'
+mainwindow.o: In function `MainWindow::open(QString)':
+/home/manfred/download/brainfuck/mainwindow.cpp:119: undefined reference to
+`Highlighter::Highlighter(QTextDocument*)'
+moc_highlighter.o:(.gnu.linkonce.r._ZTV11Highlighter[vtable for
+Highlighter]+0x38): undefined reference to
+`Highlighter::highlightBlock(QString const&)'
+collect2: ld returned 1 exit status
+make: *** [brainfuck] Fehler 1
+----------------------------
+
+
+Wo liegt hier der Fehler ?
+
+
+Danke f?r eure Antworten ;)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/bf-dev-user/attachments/20060608/0014f95f/attachment.html>
+
